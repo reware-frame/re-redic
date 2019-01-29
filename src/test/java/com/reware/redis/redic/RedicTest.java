@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 
 @ContextConfiguration(locations = "/spring/application-context-redic-test.xml")
 public class RedicTest extends AbstractTestNGSpringContextTests {
-	@Test(groups = { "redic" })
-	public void testRedic() {
-		Redic redic = (Redic) applicationContext.getBean("redic");
+    @Test(groups = {"redic"})
+    public void testRedic() {
+        Redic redic = (Redic) applicationContext.getBean("redic");
 
-		redic.set("name", "robert");
+        redic.set("name", "robert");
 
-		AssertJUnit.assertEquals("robert", redic.get("name"));
+        AssertJUnit.assertEquals("robert", redic.get("name"));
 
-		System.out.println("Get value: " + redic.get("name"));
-	}
+        System.out.println("Get value: " + redic.get("name"));
+    }
 }
