@@ -1,4 +1,4 @@
-package com.ten.ware.redis.redic;
+package com.reware.redis.redic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.ten.ware.redis.redic.excep.NotSupportedException;
-import com.ten.ware.redis.redic.strategy.HashShardingStrategy;
+import com.reware.redis.redic.excep.NotSupportedException;
+import com.reware.redis.redic.strategy.HashShardingStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
@@ -28,7 +28,7 @@ import redis.clients.jedis.ZParams;
 import redis.clients.util.Pool;
 import redis.clients.util.Slowlog;
 
-import com.ten.ware.redis.redic.strategy.ShardingStrategy;
+import com.reware.redis.redic.strategy.ShardingStrategy;
 
 
 /**

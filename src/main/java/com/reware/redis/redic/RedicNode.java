@@ -1,14 +1,13 @@
-package com.ten.ware.redis.redic;
+package com.reware.redis.redic;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ten.ware.redis.redic.strategy.SelectStrategy;
+import com.reware.redis.redic.strategy.RoundRobinSelectStrategy;
+import com.reware.redis.redic.strategy.SelectStrategy;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 
 import redis.clients.jedis.JedisPool;
-
-import com.ten.ware.redis.redic.strategy.RoundRobinSelectStrategy;
 
 /**
  * 主从节点数据

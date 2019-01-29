@@ -1,4 +1,4 @@
-package com.ten.ware.redis.redic.excep;
+package com.reware.redis.redic.excep;
 
 public class NotSupportedException extends RuntimeException {
 

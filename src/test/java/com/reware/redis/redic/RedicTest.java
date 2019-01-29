@@ -1,4 +1,4 @@
-package com.ten.ware.redis.redic;
+package com.reware.redis.redic;
 
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;

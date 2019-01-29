@@ -1,4 +1,4 @@
-package com.ten.ware.redis.redic.strategy;
+package com.reware.redis.redic.strategy;
 
 /**
  * 路由规则

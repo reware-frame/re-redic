@@ -1,4 +1,4 @@
-package com.ten.ware.redis.redic.strategy;
+package com.reware.redis.redic.strategy;
 
 /**
  * 指明使用哪种策略来选择读写分离的从节点

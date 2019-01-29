@@ -33,7 +33,7 @@ Jedis实现的ShardedJedisPool是基于一致性hash实现的，当某个节点�
 - 在Spring环境中配置多节点的Redic Bean。
 
     ```xml
-    <bean id="redic" class="com.ten.ware.redis.redic.Redic" init-method="init">
+    <bean id="redic" class="com.reware.redis.redic.Redic" init-method="init">
         <property name="nodeConnStrs">
             <list>
                 <value>${redic.cache.node.conn1}</value>
@@ -55,7 +55,7 @@ Jedis实现的ShardedJedisPool是基于一致性hash实现的，当某个节点�
 - 在Spring环境中配置多节点的Redic Bean。
 
     ```xml
-    <bean id="redic" class="com.ten.ware.redis.router.Redic" init-method="init">
+    <bean id="redic" class="com.reware.redis.router.Redic" init-method="init">
         <property name="readWriteSeparate" value=${redic.cache.readWriteSeparate}>
         <property name="nodeConnStrs">
             <list>
