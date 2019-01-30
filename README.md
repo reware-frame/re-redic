@@ -84,4 +84,4 @@ AssertJUnit.assertEquals("ten", redic.get("name"));
 
 ### 版权信息
 
-[@李艳鹏](https://github.com/cloudatee) [redic](https://github.com/cloudatee/redic)
+[@李艳鹏 redic](https://github.com/cloudatee/redic)
